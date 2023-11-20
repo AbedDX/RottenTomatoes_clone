@@ -8,13 +8,13 @@ Movie images are fetched from Cloudinary where cloudinary Url will be store in m
 - Add new movies to the database (work in progress)
 - User authentication for login and signup (work in progress)
 
-
-
-Future Improvements
+###Future Improvements 
 This project is an ongoing endeavor, and there are several areas for improvement:
 
 - Complete user authentication for login and signup.
 - UI style improvement
+- Docker contenarize
+- Further understanding the fullstack concepts
 
 ## Demo
 
@@ -24,8 +24,6 @@ This project is an ongoing endeavor, and there are several areas for improvement
 
 #### Backend (Flask)
 
-Make sure you have the following installed on your machine:
-
 - [Flask](https://flask.palletsprojects.com/)
 - [Flask-CORS](https://flask-cors.readthedocs.io/)
 - [Flask-PyMongo](https://flask-pymongo.readthedocs.io/)
@@ -34,7 +32,12 @@ Make sure you have the following installed on your machine:
 
 #### Frontend (React and Semantic UI)
 
-Make sure you have [Node.js and npm](https://nodejs.org/) installed on your machine.
+- [react](https://www.npmjs.com/package/react)
+- [react-dom](https://www.npmjs.com/package/react-router-dom)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) 
+- [semantic-ui](https://www.npmjs.com/package/semantic-ui) 
+- [semantic-ui-css](https://www.npmjs.com/package/semantic-ui-css)
+
 
 ### How to Start Backend
 
@@ -83,6 +86,7 @@ Make sure you have [Node.js and npm](https://nodejs.org/) installed on your mach
 4. Visit [http://localhost:3000](http://localhost:3000) in your web browser to explore the movie collection and use the application.
 
 By following these steps, you should have both the backend and frontend running locally. Adjust the configuration files and environment variables according to your specific setup.
+
 ## Screenshots
 
 
