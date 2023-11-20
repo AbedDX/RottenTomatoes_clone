@@ -1,0 +1,44 @@
+
+.navbar {
+  background-color: #f10a0a;
+  border-bottom: 5px solid #96868600;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 45px; /* Make the title bigger */
+  margin-left: 20px; /* Add some left margin for spacing */
+}
+
+
+/* Position the Login/Signup link to the upper right corner */
+.navbar-login {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #fff9f9; /* Adjust the color as needed */
+  text-size-adjust: 20;
+}
+
+/* Style the "New Movie" and "TV Show" links */
+.navbar-item {
+  margin-right: 2px;
+  color: #fff9f9; /* Adjust the color as needed */
+}
+
+/* Add margin between the "Login/Signup" link and the new links */
+.navbar-item:not(:first-child) {
+  margin-right: 50px; /* Adjust the margin as needed */
+}
+
+.ui.page.modals.dimmer {
+  display: none !important;
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Virtual environment (Python)
+venv/
+env/
+
+# IDE or text editor specific files
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Log files
+*.log
+
+# Database
+*.db
+
+# Local configuration files
+.env

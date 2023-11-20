@@ -1,0 +1,35 @@
+/* Set the background color of the modal frame to black */
+.ui.modal {
+    background-color: rgba(0, 0, 0, 0);
+    color: white; /* Set text color to white for better readability */
+    size-adjust: 10;
+    padding: 1px;
+    outline: "none";
+  }
+  
+  /* Set the background color of the modal header to black */
+  .ui.modal .header {
+    background-color: rgb(0, 0, 0);
+
+    color: rgba(0, 0, 0, 0); /* Set text color to white for better readability */
+    padding: 1px;
+    outline: "none";
+  }
+  
+  /* Set the background color of the modal content (body) to black */
+  .ui.modal .content {
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: "10";
+    color: rgba(0, 0, 0, 0);
+    padding: 1px;
+    outline:'none';
+  }
+
+  
+  .Embed {
+    transform: translate(-50%, -50%);
+    color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    outline: "none";
+  }
+
