@@ -24,18 +24,17 @@ This project is an ongoing endeavor, and there are several areas for improvement
 
 #### Backend (Flask)
 
-- [Flask](https://flask.palletsprojects.com/)
-- [Flask-CORS](https://flask-cors.readthedocs.io/)
-- [Flask-PyMongo](https://flask-pymongo.readthedocs.io/)
-- [python-dotenv](https://pypi.org/project/python-dotenv/)
-- [Cloudinary](https://cloudinary.com/)
+- [Flask](https://flask.palletsprojects.com/) Flask: A micro web framework for Python.
+- [Flask-CORS](https://flask-cors.readthedocs.io/) Flask-CORS: Extension for handling Cross-Origin Resource Sharing.
+- [Flask-PyMongo](https://flask-pymongo.readthedocs.io/) Flask-PyMongo: PyMongo integration with Flask.
+- [python-dotenv](https://pypi.org/project/python-dotenv/) Load environment variables from a .env file.
+- [Cloudinary](https://cloudinary.com/) Cloud storage for images.
 
 #### Frontend (React and Semantic UI)
 
-- [react](https://www.npmjs.com/package/react)
-- [react-dom](https://www.npmjs.com/package/react-router-dom)
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom) 
-- [semantic-ui](https://www.npmjs.com/package/semantic-ui) 
+- [react](https://www.npmjs.com/package/react) JavaScript library for building user interfaces.
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) React Router is a lightweight, fully-featured routing library for the React JavaScript library. 
+- [semantic-ui](https://www.npmjs.com/package/semantic-ui) A UI framework for designing responsive and beautiful components.
 - [semantic-ui-css](https://www.npmjs.com/package/semantic-ui-css)
 
 
@@ -88,7 +87,6 @@ This project is an ongoing endeavor, and there are several areas for improvement
 By following these steps, you should have both the backend and frontend running locally. Adjust the configuration files and environment variables according to your specific setup.
 
 ## Screenshots
-
 
 ![App Screenshot](https://imgur.com/efNFWMK.jpg)
 ![App Screenshot](https://imgur.com/GqBnI04.jpg)
