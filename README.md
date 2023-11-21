@@ -31,7 +31,7 @@ This project is an ongoing endeavor, and there are several areas for improvement
 - [Cloudinary](https://cloudinary.com/) Cloud storage for images.
 
 #### Frontend (React and Semantic UI)
-
+Make sure you have [Node.js and npm](https://nodejs.org/) installed on your machine.
 - [react](https://www.npmjs.com/package/react) JavaScript library for building user interfaces.
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) React Router is a lightweight, fully-featured routing library for the React JavaScript library. 
 - [semantic-ui](https://www.npmjs.com/package/semantic-ui) A UI framework for designing responsive and beautiful components.
