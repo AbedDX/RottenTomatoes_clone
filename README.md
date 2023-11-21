@@ -93,7 +93,7 @@ By following these steps, you should have both the backend and frontend running 
 ![App Screenshot](https://imgur.com/LL1iFGl.jpg)
 ![App Screenshot](https://imgur.com/ueCZSoQ.jpg)
 
-##Learning Journey💻🤘🚀
+## Learning Journey💻🤘🚀
 This project is based on what I've learned from Opiframe Fullstack 2023, a comprehensive learning program. The knowledge gained includes practical experiences from building a Learning101Python Flask web server and hands-on learning with the Learning101 React shoppingAPP. The project also involves the application of JavaScript and HTML for frontend development.
 
 The journey includes understanding the intricacies of building a full-stack web application, integrating backend technologies like Flask for a robust server and database setup, and utilizing frontend frameworks like React for creating interactive and responsive user interfaces.
