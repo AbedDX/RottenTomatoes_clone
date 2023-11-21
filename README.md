@@ -8,7 +8,7 @@ Movie images are fetched from Cloudinary where cloudinary Url will be store in m
 - Add new movies to the database (work in progress)
 - User authentication for login and signup (work in progress)
 
-###Future Improvements 💻🤘🚀
+##Future Improvements 💻🤘🚀
 This project is an ongoing endeavor, and there are several areas for improvement:
 
 - Complete user authentication for login and signup.
