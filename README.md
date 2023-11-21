@@ -1,4 +1,4 @@
-# Rotten Tomatoes clone Movie Database
+# Rotten Tomatoes clone Movie Database🍅
 
 Rotten Tomatoes Movie Database is a web application that allows users to browse and manage a collection of movies. The app fetches information, rating, description, and youtube embed link from MongoDB.
 Movie images are fetched from Cloudinary where cloudinary Url will be store in mongodb. The project is a work in progress, and its current features include:
@@ -8,7 +8,7 @@ Movie images are fetched from Cloudinary where cloudinary Url will be store in m
 - Add new movies to the database (work in progress)
 - User authentication for login and signup (work in progress)
 
-###Future Improvements 
+###Future Improvements 💻🤘🚀
 This project is an ongoing endeavor, and there are several areas for improvement:
 
 - Complete user authentication for login and signup.
@@ -16,11 +16,11 @@ This project is an ongoing endeavor, and there are several areas for improvement
 - Docker contenarize
 - Further understanding the fullstack concepts
 
-## Demo
+## Demo🍅
 
 ![ezgif com-gif-maker](https://github.com/AbedDX/RottenTomatoes_clone/assets/123561100/1a44dae1-ef76-47f5-92aa-693abd609439)
 
-## Prerequisites
+## Prerequisites🍅💻🤘
 
 #### Backend (Flask)
 
@@ -38,7 +38,7 @@ This project is an ongoing endeavor, and there are several areas for improvement
 - [semantic-ui-css](https://www.npmjs.com/package/semantic-ui-css)
 
 
-### How to Start Backend
+### How to Start Backend🚀
 
 1. Navigate to the `backend` directory.
 
@@ -86,10 +86,18 @@ This project is an ongoing endeavor, and there are several areas for improvement
 
 By following these steps, you should have both the backend and frontend running locally. Adjust the configuration files and environment variables according to your specific setup.
 
-## Screenshots
+## Screenshots🍅
 
 ![App Screenshot](https://imgur.com/efNFWMK.jpg)
 ![App Screenshot](https://imgur.com/GqBnI04.jpg)
 ![App Screenshot](https://imgur.com/LL1iFGl.jpg)
 ![App Screenshot](https://imgur.com/ueCZSoQ.jpg)
+
+##Learning Journey💻🤘🚀
+This project is based on what I've learned from Opiframe Fullstack 2023, a comprehensive learning program. The knowledge gained includes practical experiences from building a Learning101Python Flask web server and hands-on learning with the Learning101 React shoppingAPP. The project also involves the application of JavaScript and HTML for frontend development.
+
+The journey includes understanding the intricacies of building a full-stack web application, integrating backend technologies like Flask for a robust server and database setup, and utilizing frontend frameworks like React for creating interactive and responsive user interfaces.
+
+Feel free to explore the movie collection and contribute to the project. Any suggestions or contributions are welcome!
+
 
