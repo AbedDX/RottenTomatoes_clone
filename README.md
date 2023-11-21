@@ -73,7 +73,7 @@ Make sure you have [Node.js and npm](https://nodejs.org/) installed on your mach
 2. Install the required dependencies:
 
     ```bash
-    npm install react react-dom react-router-dom semantic-ui-react semantic-ui-css
+    npm install
     ```
 
 3. Start the React application:
