@@ -26,7 +26,7 @@ def add_movie():
     return jsonify({"message": "Movie added successfully", "movie_id": inserted_id}), 201
 
 # List all movies
-@movies_api.route("/movies", methods=["GET"])
+@movies_api.route("/api/movies", methods=["GET"])
 def list_movies():
     movies = Movie.get_all_movies()
     movie_list = []
@@ -43,7 +43,7 @@ def list_movies():
     return jsonify({"movies": movie_list})
 
 # Delete a movie by its ID
-@movies_api.route("/movies/<string:movies_id>", methods=["DELETE"])
+@movies_api.route("/api/movies/<string:movies_id>", methods=["DELETE"])
 def delete_movie(movies_id):
     result = Movie.delete(movies_id)
     
@@ -53,7 +53,7 @@ def delete_movie(movies_id):
     return jsonify({"message": "Movie deleted successfully"})
 
 # Update an existing movie by its ID
-@movies_api.route("/movies/<string:movies_id>", methods=["PUT"])
+@movies_api.route("/api/movies/<string:movies_id>", methods=["PUT"])
 def update_movie(movies_id):
     data = request.json
     title = data.get("title")
@@ -85,7 +85,7 @@ def update_movie(movies_id):
     return jsonify({"message": "Movie updated successfully"}, 200)
 
 # New route to fetch YouTube links for movies
-@movies_api.route("/movies/<string:movies_id>/youtube_link", methods=["GET"])
+@movies_api.route("/api/movies/<string:movies_id>/youtube_link", methods=["GET"])
 def get_movie_youtube_link(movies_id):
     movie = Movie.get_movie_by_id(movies_id)
     print(movies_id)

@@ -9,11 +9,23 @@ function App() {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    fetch("/movies").then(response =>
-      response.json().then(data => {
+    const fetchMovies = async () => {
+      try {
+        // Determine the base URL based on the environment
+        const baseUrl =
+          process.env.NODE_ENV === "development"
+            ? "http://localhost:3001/api"
+            : "/api";
+
+        const response = await fetch(`${baseUrl}/movies`);
+        const data = await response.json();
         setMovies(data.movies);
-      })
-    );
+      } catch (error) {
+        console.error("Error fetching movies:", error);
+      }
+    };
+
+    fetchMovies();
   }, []);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,21 +38,18 @@ function App() {
     setIsModalOpen(false);
   };
 
-
-
   return (
     <div>
-      <Navbar/>
-    <Container style={{ marginTop: "20px" }} tyle={{marginLeft: "10px" }}>
-    <Button primary onClick={openModal}>
-        Open Movie Form
-      </Button>
-      <br/>
-      <MovieForm open={isModalOpen} onClose={closeModal} />
-      <br/>
-      <Movies movies={movies} />
-
-    </Container>
+      <Navbar />
+      <Container style={{ marginTop: "20px", marginLeft: "10px" }}>
+        <Button primary onClick={openModal}>
+          Open Movie Form
+        </Button>
+        <br />
+        <MovieForm open={isModalOpen} onClose={closeModal} />
+        <br />
+        <Movies movies={movies} />
+      </Container>
     </div>
   );
 }

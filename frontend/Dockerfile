@@ -1,5 +1,5 @@
 # Use the official Node.js image
-FROM node:14
+FROM node:slim
 
 # Set the working directory
 WORKDIR /app/frontend
@@ -11,4 +11,4 @@ COPY . .
 RUN npm install
 
 # Run the application
-CMD ["npm", "start"]
+CMD ["npm", "start", "build"]

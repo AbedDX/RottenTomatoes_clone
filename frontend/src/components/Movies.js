@@ -11,7 +11,13 @@ export const Movies = ({ movies }) => {
 
     if (movie.youtube) {
       try {
-        const response = await fetch(`/movies/${movie._id}/youtube_link`);
+        // Determine the base URL based on the environment
+        const baseUrl =
+          process.env.NODE_ENV === "development"
+            ? "http://localhost:3001/api/movies"
+            : "/api/movies";
+
+        const response = await fetch(`${baseUrl}/${movie._id}/youtube_link`);
         if (response.ok) {
           const data = await response.json();
           setYoutubeLink(data.youtube_link);
