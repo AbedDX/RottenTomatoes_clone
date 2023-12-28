@@ -82,7 +82,7 @@ const MovieForm = ({ open, onClose, movieDetails }) => {
         cloudinary_url: finalCloudinaryUrl,
       };
 
-      const apiUrl = movieDetails ? `/movies/${movieDetails._id}` : "/movies";
+      const apiUrl = movieDetails ? `/api/movies/${movieDetails._id}` : "/api/movies";
       const method = movieDetails ? "PUT" : "POST";
 
       const response = await fetch(apiUrl, {

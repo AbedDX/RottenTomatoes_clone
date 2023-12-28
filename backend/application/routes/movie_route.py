@@ -6,7 +6,7 @@ from cloudinary.uploader import upload
 movies_api = Blueprint("movies", __name__)
 
 # Add a new movie
-@movies_api.route("/movies", methods=["POST"])
+@movies_api.route("/api/movies", methods=["POST"])
 def add_movie():
     data = request.json
     title = data.get("title")
